@@ -35,4 +35,4 @@ jobs:
 
     - name: Run tests
       run: |
-        npx hardhat tests
+        npx hardhat test
