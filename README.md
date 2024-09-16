@@ -1,5 +1,7 @@
 # CompositeChallenge Smart Contract
 
+[![CI](https://github.com/denisglotov/factorization-game/actions/workflows/ci.yml/badge.svg)](https://github.com/denisglotov/factorization-game/actions)
+
 This project implements a Solidity smart contract called `CompositeChallenge` that allows users to create and solve
 mathematical challenges involving composite numbers. The contract uses ERC20 tokens as rewards, and only whitelisted
 tokens are accepted.
@@ -13,9 +15,8 @@ tokens are accepted.
 
 ## Prerequisites
 
-- [Node.js](https://nodejs.org/en/download/) (v16 or higher)
+- [Node.js](https://nodejs.org/en/download/) (v20 or higher)
 - [Hardhat](https://hardhat.org/) for testing and local blockchain simulation
-- [Prettier](https://prettier.io/) for code formatting
 
 ## Installation
 
